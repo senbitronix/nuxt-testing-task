@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  background: rgb(241, 241, 255);
+}
+
+.btn,
+.search-input {
+  display: inline-block;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: white;
+  border-radius: 10px;
+  min-height: 40px;
+}
+
+.btn {
+  cursor: pointer;
+  background: rgb(206, 206, 255);
+  &:active {
+    background: rgb(221, 221, 254);
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+
+.fg-1 {
+  flex-grow: 1;
+}
